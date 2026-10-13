@@ -110,7 +110,9 @@ Program utama ini digunakan untuk menerima input berupa judul buku, jumlah halam
 
 ## Unguided
 
-### 1. Buatlah program yang menerima input-an dua buah bilangan betipe float, kemudian memberikan output-an hasil penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan tersebut.
+### 1. Buat program yang dapat menyimpan data mahasiswa (max. 10) ke dalam sebuah array
+dengan field nama, nim, uts, uas, tugas, dan nilai akhir. Nilai akhir diperoleh dari FUNGSI
+dengan rumus 0.3*uts+0.4*uas+0.3*tugas.
 
 ```C++
 
@@ -189,7 +191,9 @@ int main() {
 
 Program ini dibuat untuk menyimpan dan menampilkan data maksimal 10 mahasiswa dalam sebuah array. Data yang disimpan meliputi nama, NIM, nilai UTS, UAS, tugas, dan nilai akhir. Nilai akhir dihitung menggunakan fungsi dengan rumus 0,3 × UTS + 0,4 × UAS + 0,3 × tugas.
 
-### 2. Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100
+### 2. Buatlah ADT pelajaran sebagai berikut di dalam file “pelajaran.h”,
+Buatlah implementasi ADT pelajaran pada file “pelajaran.cpp”
+Cobalah hasil implementasi ADT pada file “main.cpp”
 
 ```C++
 //pelajaran.h
@@ -254,7 +258,12 @@ int main() {
 
 Program ini dibuat untuk menerapkan konsep Abstract Data Type (ADT) pada data pelajaran. Data terdiri dari nama mata pelajaran dan kode mata pelajaran. Program dibagi menjadi tiga file, yaitu pelajaran.h sebagai deklarasi tipe dan fungsi, pelajaran.cpp sebagai implementasi fungsi, serta main.cpp untuk menjalankan dan menguji program.
 
-### 3. Buatlah program yang dapat memberikan input dan output sbb.
+### 3. Buatlah program dengan ketentuan :
+- 2 buah array 2D integer berukuran 3x3 dan 2 buah pointer integer
+- fungsi/prosedur yang menampilkan isi sebuah array integer 2D
+- fungsi/prosedur yang akan menukarkan isi dari 2 array integer 2D pada posisi tertentu
+- fungsi/prosedur yang akan menukarkan isi dari variabel yang ditunjuk oleh 2 buah
+pointer
 
 ```C++
 #include <iostream>
