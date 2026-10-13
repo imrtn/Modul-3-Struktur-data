@@ -269,32 +269,72 @@ pointer
 #include <iostream>
 using namespace std;
 
-int main() {
-    int n;
-    
-    cout << "Input: ";
-    cin >> n;
-    
-    cout << "Output:\n";
-
-    for (int i = n; i >= 0; --i) {
-
-        for (int j = 0; j < n - i; ++j)
-            cout << "  ";
-
-        for (int j = i; j > 0; --j)
-            cout << j << " ";
-
-        cout << "*";
-
-        for (int j = 1; j <= i; ++j)
-            cout << " " << j;
-
+void tampilArray(int arr[3][3]) {
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout << arr[i][j] << "\t";
+        }
         cout << endl;
     }
+}
+
+void tukarArray(int A[3][3], int B[3][3],
+                int baris, int kolom) {
+    int temp = A[baris][kolom];
+    A[baris][kolom] = B[baris][kolom];
+    B[baris][kolom] = temp;
+}
+
+void tukarPointer(int *p1, int *p2) {
+    int temp = *p1;
+    *p1 = *p2;
+    *p2 = temp;
+}
+
+int main() {
+    int A[3][3] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
+
+    int B[3][3] = {
+        {10, 11, 12},
+        {13, 14, 15},
+        {16, 17, 18}
+    };
+
+    int x = 100;
+    int y = 200;
+
+    int *p1 = &x;
+    int *p2 = &y;
+
+    cout << "Array A sebelum ditukar:\n";
+    tampilArray(A);
+
+    cout << "\nArray B sebelum ditukar:\n";
+    tampilArray(B);
+
+    tukarArray(A, B, 1, 1);
+
+    cout << "\nArray A setelah ditukar:\n";
+    tampilArray(A);
+
+    cout << "\nArray B setelah ditukar:\n";
+    tampilArray(B);
+
+    cout << "\nSebelum pertukaran pointer:\n";
+    cout << "x = " << x << ", y = " << y << endl;
+
+    tukarPointer(p1, p2);
+
+    cout << "\nSetelah pertukaran pointer:\n";
+    cout << "x = " << x << ", y = " << y << endl;
 
     return 0;
 }
+
 ```
 
 ### Output Unguided 3 :
