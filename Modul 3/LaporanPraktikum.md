@@ -187,7 +187,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output Unguided 1_1](https://github.com/imrtn/Modul-3-Struktur-data/blob/8c12fecb39915606138025916068b043939e1b82/Modul%203/Output/main.cpp.png)
 
 Program ini dibuat untuk menyimpan dan menampilkan data maksimal 10 mahasiswa dalam sebuah array. Data yang disimpan meliputi nama, NIM, nilai UTS, UAS, tugas, dan nilai akhir. Nilai akhir dihitung menggunakan fungsi dengan rumus 0,3 × UTS + 0,4 × UAS + 0,3 × tugas.
 
@@ -254,7 +254,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 2_1]()
+![Screenshot Output Unguided 2_1](https://github.com/imrtn/Modul-3-Struktur-data/blob/8c12fecb39915606138025916068b043939e1b82/Modul%203/Output/unguide1.png)
 
 Program ini dibuat untuk menerapkan konsep Abstract Data Type (ADT) pada data pelajaran. Data terdiri dari nama mata pelajaran dan kode mata pelajaran. Program dibagi menjadi tiga file, yaitu pelajaran.h sebagai deklarasi tipe dan fungsi, pelajaran.cpp sebagai implementasi fungsi, serta main.cpp untuk menjalankan dan menguji program.
 
@@ -301,7 +301,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1]()
+![Screenshot Output Unguided 3_1](https://github.com/imrtn/Modul-3-Struktur-data/blob/8c12fecb39915606138025916068b043939e1b82/Modul%203/Output/unguide2.png)
 
 Program ini dibuat untuk mengolah dua buah array integer dua dimensi berukuran 3 × 3 dan dua buah pointer integer. Program memiliki fungsi untuk menampilkan isi array, menukar elemen pada posisi tertentu dari kedua array, serta menukar nilai variabel yang ditunjuk oleh dua pointer.
 
